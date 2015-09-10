@@ -1,0 +1,62 @@
+    1  find -size +1M
+    2  cd ~
+    3  find -size +1M
+    4  cd workspace
+    5  ls -l
+    6  grep "registerTask" Gruntfile.js 
+    7  man grep
+    8  grep -n "registerTask" Gruntfile.js 
+    9  grep "griffin" .
+   10  grep --recursive "griffin" .
+   11  grep -i --recursive "griffin" .
+   12  history > hist.txt
+   13  ls -l
+   14  rm hist.txt 
+   15  ls -l
+   16  cd ~
+   17  ls -l
+   18  tree
+   19  mkdir scratch
+   20  ls -l
+   21  cd scratch/
+   22  grep "hello"
+   23  history > hist.txt
+   24  ls -l
+   25  grep "git commit" < hist.txt
+   26  grep "git" < hist txt
+   27  grep "git" < hist.txt
+   28  nano hist.txt
+   29  sudo apt-get install cowsay
+   30  cowsay "hello"
+   31  man cowsay
+   32  cowsay "hello"
+   33  cowsay "hello
+   34  cowsay "hello"
+   35  man cowsay
+   36  cowsay "fuck"
+   37  history | grep "git commit"
+   38  echo $USER
+   39  echo $HOME
+   40  whereis ls
+   41  env
+   42  cd /etc
+   43  nano host
+   44  nano hosts
+   45  cd ,.
+   46  cd ..
+   47  cd ~
+   48  git clone
+   49  git clone clone-of-decodemtl-website
+   50  ls
+   51  cd workspace/
+   52  ls
+   53  cd ..
+   54  git clone git@github.com:vntrp/command-line-workshop.git
+   55  ls
+   56  cd command-line-workshop/
+   57  ls
+   58  git branch cmd-history
+   59  cd cmd-history
+   60  ls
+   61  git checkout cmd-history 
+   62  history > history.txt
